@@ -1,0 +1,152 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 17px;
+	line-height: 1cm; /*space between the text*/
+	background-image: url("lines-background.png");
+    background-attachment: fixed;
+}
+
+nav{
+	width: 15%;
+    position: fixed;
+    height: 100%;
+	text-align: right;
+	top: 10%;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li a {
+    color: black;	
+	padding: 5px;
+	text-decoration: none;
+}
+
+.currentPage{
+    background-color: black;
+    color: white;
+}
+
+#border{
+	border-top: solid grey 2px;
+}
+
+li p{
+	font-size: 35px;
+	font-family: 'Tangerine', cursive;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	text-align:center;
+	bottom: 0;
+	font-family: arial;
+	font-size: 14px;
+	color: #666666;
+	padding: 3px;
+}
+
+#container{
+	width: 50%;
+	margin: auto;
+	padding-top: 3.5%;
+}
+
+.asti{
+	text-align: center;
+	color: #CD5C5C;
+	margin-bottom: 2.5%;
+}
+
+#container input[type='text']{
+	font-size: 14px;
+	font-family: arial;
+	padding: 6px;
+	border: #708090 solid 1px;
+	border-radius: 3px;
+	display: block;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+input[placeholder] {
+   color: #00BFFF; 
+}
+
+#container #wrap {
+	width: 90%;
+	margin: auto;
+}
+
+#container #wrap input[type='text']{
+	width: 47%;
+	display: inline;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+#container textarea{
+	font-size: 14px;
+	font-family: arial;
+	padding: 6px;
+	border: #708090 solid 1px;
+	border-radius: 3px;
+	display: block;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+textarea[placeholder] {
+   color: #00BFFF; 
+}
+
+#container .submit-btn{
+	text-align:center;
+	width: 25%;
+	padding: 3px;
+	background-color: white;
+	color: #00BFFF;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 3px;
+	border: #708090 solid 1px;
+	display: block; 
+	margin: 0 auto;
+}
+
+#container .submit-btn:hover{
+	background-color: gray;
+	color: white;
+}
+
+@media screen and (max-width: 891px){
+	nav{
+		width: 100%;
+		height: 25%;
+		text-align: center;
+		top: 0%;
+		border-bottom: 2px solid black;
+		position: relative;
+	}
+	#container{
+		margin: 7% auto;
+		padding-top: 0%;
+		position: relative;
+	}
+	#container #wrap input[type='text']{
+		width: 90%;
+		display: block;
+	}
+	footer{
+		display: none;
+	}
+}

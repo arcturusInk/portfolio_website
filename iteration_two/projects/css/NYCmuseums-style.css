@@ -1,0 +1,85 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 17px;
+	line-height: 1cm; /*space between the text*/
+	background-image: url("lines-background.png");
+    background-attachment: fixed;
+}
+
+nav{
+	width: 15%;
+    position: fixed;
+    height: 100%;
+	text-align: right;
+	top: 10%;
+}
+
+ul{
+	list-style-type: none;
+}
+
+li a {
+    color: black;	
+	padding: 5px;
+	text-decoration: none;
+}
+
+#border{
+	border-top: solid grey 2px;
+}
+
+li p{
+	font-size: 35px;
+	font-family: 'Tangerine', cursive;
+}
+
+footer{
+	width: 99%;
+	text-align:center;
+	bottom: 0;
+	font-family: arial;
+	font-size: 14px;
+	color: #666666;
+	padding: 3px;
+}
+
+.container{
+	padding-top: 5%;
+	width: 60%;
+	margin: auto;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.container-projDes #heading{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.container-projDes #text{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.container-images #heading{
+	margin-top: 10%;
+	margin-bottom: 2%;
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.container-images .inline img{
+	display: inline;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.container-images p{
+	font-family: 'Josefin Sans', sans-serif;
+	margin-top: 1%;
+	margin-bottom: 10%;
+}
+
+.container-links{
+	margin-top: 10%;

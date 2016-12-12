@@ -1,0 +1,94 @@
+body{
+	/*background-image: url("lines-background-opacity.jpg");
+    background-attachment: fixed;*/
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+canvas {
+	position:fixed;
+	z-index: -1;
+}
+
+nav{
+	width: 15%;
+    position: fixed;
+    height: 100%;
+	top: 10%;
+}
+
+li a {
+    color: black;	
+	padding: 5px;
+}
+
+.currentPage{
+    background-color: black;
+	color: white;
+}
+
+#border{
+	border-top: solid grey 2px;
+}
+
+#title-name{
+	font-size: 19px;
+}
+
+footer{
+	position: fixed;
+	width: 100%;
+	text-align:center;
+	bottom: 0;
+	font-size: 14px;
+	color: #666666;
+	padding: 10px;
+}
+
+#container, #mess-container{
+	width: 50%;
+	margin: auto;
+	margin-top: 3.5%;;
+}
+
+.asti{
+	text-align: center;
+	color: #CD5C5C;
+	margin-bottom: 2.5%;
+}
+
+#container input[type='text'], textarea{
+	font-size: 14px;
+	font-family: 'Julius Sans', sans-serif;
+	padding: 6px;
+	border: #708090 solid 1px;
+	border-radius: 3px;
+	display: block;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 30px;
+}
+
+.submit-btn{
+	text-align:center;
+	width: 25%;
+	padding: 3px;
+	background-color: white;
+	color: #00BFFF;
+	cursor: pointer;
+	font-size: 15px;
+	border-radius: 3px;
+	border: #708090 solid 1px;
+	display: block; 
+	margin: 0 auto;
+}
+
+#container .submit-btn:hover{
+	background-color: gray;
+	color: white;
+}
+
+#response{
+	background: pink;
+	display: block;
+	text-align: center;
+}
