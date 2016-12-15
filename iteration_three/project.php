@@ -30,7 +30,7 @@
 			<div class="small-4 medium-5 large-6 columns">
 				<a href="projects/NYCmuseums.php">
 					<img src="img/nycmuseumsTwo.jpg" class="img">
-					<figcaption>MySQL/PHP | SUMMBER 2016</figcaption>
+					<figcaption>MySQL/PHP | SUMMER 2016</figcaption>
 				</a>	
 			</div>
 			<div class="small-4 medium-5 large-6 columns">

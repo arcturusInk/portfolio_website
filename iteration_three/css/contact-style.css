@@ -31,7 +31,7 @@ li a {
 }
 
 #title-name{
-	font-size: 19px;
+	font-size: 22px;
 }
 
 footer{
@@ -88,7 +88,17 @@ footer{
 }
 
 #response{
-	background: pink;
+	background: #CD5C5C;
 	display: block;
 	text-align: center;
+	font-weight:bold;
 }
+
+input::-webkit-input-placeholder { color: black; opacity: 1 !important;}
+input:-moz-placeholder { color: black;}
+input::-moz-placeholder {color: black;}
+input:-ms-input-placeholder {color: black;}
+textarea::-webkit-input-placeholder { color: black; opacity: 1 !important;}
+textarea:-moz-placeholder { color: black;}
+textarea::-moz-placeholder {color: black;}
+textarea:-ms-input-placeholder {color: black;}

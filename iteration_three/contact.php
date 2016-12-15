@@ -23,31 +23,12 @@
 		</ul>
 	</nav>
 	
-	<?php
-	if(isset($_POST["email"]) && !empty($_POST["email"]) && isset($_POST["name"]) && !empty($_POST["name"]) && isset($_POST["subject"]) && !empty($_POST["subject"]) && isset($_POST["message"]) && !empty($_POST["message"])) {
-		$visitorEmail = $_POST['email'];
-		$visitorName = $_POST['name'];
-		$messageSubject = $_POST['subject'];//included
-		$message = $_POST['message'];
-		
-		$emailTo = "swatib160@gmail.com"; //included
-		$messageBody = "A new message from portfolio's contact form.\n\nMessage sent by $visitorName.\n".
-						"Reply back to: $visitorEmail.\n\n".
-                        "The message:\n$message";
-		
-		mail($emailTo, $messageSubject, $messageBody);
-		
-	
-	}
-	
-	?>
-	
 	<div id="mess-container">
 		<div id="response"></div>
 	</div>
 	<div id="container">
 		<p class="asti">* All Fields Required *</p>
-		<form id="form" method="post">
+		<form id="form" method="post" action="process-contact.php">
 			<div class="row">
 				<div class="medium-6 columns">
 					<input type="text" placeholder="Email" id="email">
@@ -56,7 +37,7 @@
 					<input type="text" placeholder="Name" id="name">
 				</div>
 				<input type="text" placeholder="Subject" id="subject">
-				<textarea cols="75" rows="12" placeholder="Message" id="message"></textarea>	
+				<textarea placeholder="Message" cols="75" rows="12" id="message"></textarea>	
 				<input type="submit" class="button submit-btn" value="SEND">
 			</div>
 		</form>

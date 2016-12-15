@@ -43,7 +43,7 @@ function Line() {
 	//rotating the lines around their midpoint
 	this.display = function() {
 		//the color of the lines
-		stroke('#D8D8D8');
+		stroke('#C0C0C0');
 		push();
 		//translate func determines around which point to rotate
 		//making sure they translate somewhere within the screen
